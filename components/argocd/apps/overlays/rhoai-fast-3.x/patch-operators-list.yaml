@@ -36,6 +36,11 @@ spec:
         values:
           name: redhat-build-of-kueue-operator
           path: components/operators/redhat-build-of-kueue/aggregate/overlays/stable-v1.1
+      - cluster: local
+        url: https://kubernetes.default.svc
+        values:
+          name: jobset-operator
+          path: components/operators/jobset-operator/operator/overlays/tech-preview-v0.1
 
       # - cluster: local
       #   url: https://kubernetes.default.svc
