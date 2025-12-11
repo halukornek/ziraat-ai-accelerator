@@ -5,7 +5,7 @@ namespace: openshift-gitops
 
 resources:
   - ../../base
-  - ../../../components/argocd/apps/overlays/rhoai-fast
+  - ../../../components/argocd/apps/overlays/rhoai-fast-3.x
 
 # patches:
 #   Uncomment patches to disable automatic sync
